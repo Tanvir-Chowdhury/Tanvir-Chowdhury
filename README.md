@@ -32,7 +32,7 @@
 
 **Backend Technologies**
 
-[![My Skills](https://skillicons.dev/icons?i=django)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=django,postman)](https://skillicons.dev)
 
 **Databases**
 
@@ -40,13 +40,14 @@
 
 **Others**
 
-[![My Skills](https://skillicons.dev/icons?i=git,github,firebase,bash,vscode,vercel)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=git,github,bash,vscode,vercel,figma,heroku,ai,linux,netlify,pycharm,vite,wordpress)](https://skillicons.dev)
 
 ## 💌 Connect With Me</h2>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanvir11744/)
-[![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/tanvir_11744)
+[![X](https://img.shields.io/badge/X-%231DA1F2.svg?&style=for-the-badge&logo=X&logoColor=white)](https://x.com/tanvir_11744)
 [![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:tanvir.chowdhury01@northsouth.edu)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/sartizayo_on/)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/tanvirvlogger/)
 [![FACEBOOK](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tanvir.11744/)
 [![Discord](https://img.shields.io/badge/discord-2C2F33?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/699916117816246292)
+[![codeforces](https://img.shields.io/badge/codeforces-FF0000?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/tanvir11744)
