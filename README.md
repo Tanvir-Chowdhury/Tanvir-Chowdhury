@@ -40,7 +40,7 @@
 
 **Others**
 
-[![My Skills](https://skillicons.dev/icons?i=git,github,firebase,bash,ps,vscode,vercel)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=git,github,firebase,bash,vscode,vercel)](https://skillicons.dev)
 
 ## 💌 Connect With Me</h2>
 
@@ -49,3 +49,4 @@
 [![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:tanvir.chowdhury01@northsouth.edu)
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/sartizayo_on/)
 [![FACEBOOK](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tanvir.11744/)
+[![Discord](https://img.shields.io/badge/discord-2C2F33?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/699916117816246292)
