@@ -1,16 +1,51 @@
-## Hi there 👋
+<h1>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=23&pause=500&vCenter=true&random=false&width=435&lines=Hey+There!;I'm+Mohammad+Tanvir+Chowdhury+%F0%9F%91%8B"/>
+</h1>
 
-<!--
-**Tanvir-Chowdhury/Tanvir-Chowdhury** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<a href="#ay0-0n-title">
+  <img src="https://github-readme-stats.vercel.app/api?username=Tanvir-Chowdhury&theme=dark&show_icons=true&hide_border=true&count_private=true" alt="ayon" align="right" />
+</a>
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+- 💻 I am a **Backend Developer | Business Enthusiast | Data Science Enthusiast | **  
+- 🏛️ Studying Computer Science and Engineering at **North South University**  
+- 🏚️ I'm currently living in **Dhaka, Bangladesh**  
+- 🎯 I'm currently working on developing my skillsets in Data Analytics, Data Science, Competitive Programming, Web Development, Research etc.  
+- 📖 I'm currently learning **Machine Learning**
+- 🥑 Ask me about **Django**, **Git**, **Python**, **C**
+- 📫 Reach me at: [tanvir.chowdhury01@northsouth.edu](mailto:tanvir.chowdhury01@northsouth.edu)
+
+<div align="center">
+  <img src="https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
+
+## 🔭 Tools of Trade</h2>
+**Languages I Speak**
+
+[![My Skills](https://skillicons.dev/icons?i=js,py,c,cpp,java)](https://skillicons.dev)
+
+**Frontend Technologies**
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,react,tailwind)](https://skillicons.dev)
+
+**Backend Technologies**
+
+[![My Skills](https://skillicons.dev/icons?i=django)](https://skillicons.dev)
+
+**Databases**
+
+[![My Skills](https://skillicons.dev/icons?i=mysql,mongodb)](https://skillicons.dev)
+
+**Others**
+
+[![My Skills](https://skillicons.dev/icons?i=git,github,firebase,bash,ps,vscode,vercel)](https://skillicons.dev)
+
+## 💌 Connect With Me</h2>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanvir11744/)
+[![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/tanvir_11744)
+[![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:tanvir.chowdhury01@northsouth.edu)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/sartizayo_on/)
+[![FACEBOOK](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tanvir.11744/)
