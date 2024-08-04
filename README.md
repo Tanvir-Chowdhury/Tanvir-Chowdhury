@@ -8,7 +8,7 @@
 
 
 
-- 💻 I am a **Backend Developer | Business Enthusiast | Data Science Enthusiast | **  
+- 💻 I am a **Backend Developer | Business Enthusiast | Data Science Enthusiast**  
 - 🏛️ Studying Computer Science and Engineering at **North South University**  
 - 🏚️ I'm currently living in **Dhaka, Bangladesh**  
 - 🎯 I'm currently working on developing my skillsets in Data Analytics, Data Science, Competitive Programming, Web Development, Research etc.  
