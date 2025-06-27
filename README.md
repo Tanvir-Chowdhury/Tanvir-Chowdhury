@@ -3,7 +3,7 @@
 </h1>
 
 <a href="#ay0-0n-title">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tanvir-Chowdhury&theme=dark&show_icons=true&hide_border=true&count_private=true" alt="ayon" align="right" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Tanvir-Chowdhury&theme=dark&show_icons=true&hide_border=true&count_private=true" alt="Tanvir" align="right" />
 </a>
 
 
@@ -32,7 +32,7 @@
 
 **Backend Technologies**
 
-[![My Skills](https://skillicons.dev/icons?i=django,postman)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=django,postman,fastapi)](https://skillicons.dev)
 
 **Databases**
 
