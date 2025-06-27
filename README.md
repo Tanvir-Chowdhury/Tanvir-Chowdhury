@@ -11,7 +11,7 @@
 - 💻 I am a **Backend Developer | Business Enthusiast | Data Science Enthusiast**  
 - 🏛️ Studying Computer Science and Engineering at **North South University**  
 - 🏚️ I'm currently living in **Dhaka, Bangladesh**  
-- 🎯 I'm currently working on developing my skillsets in Data Analytics, Data Science, Competitive Programming, Web Development, Research etc.  
+- 🎯 I'm currently working on developing my skillsets.  
 - 📖 I'm currently learning **Machine Learning**
 - 🥑 Ask me about **Django**, **Git**, **Python**, **C**
 - 📫 Reach me at: [tanvir.chowdhury01@northsouth.edu](mailto:tanvir.chowdhury01@northsouth.edu)
@@ -40,7 +40,7 @@
 
 **Others**
 
-[![My Skills](https://skillicons.dev/icons?i=git,github,bash,vscode,vercel,figma,heroku,ai,linux,netlify,pycharm,vite,wordpress)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=git,github,bash,vscode,vercel,figma,heroku,ai,linux,netlify,pycharm,vite,Wordpress,canva)](https://skillicons.dev)
 
 ## 💌 Connect With Me</h2>
 
