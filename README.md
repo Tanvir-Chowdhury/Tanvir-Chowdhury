@@ -50,4 +50,5 @@
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/tanvirvlogger/)
 [![FACEBOOK](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tanvir.11744/)
 [![Discord](https://img.shields.io/badge/discord-2C2F33?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/699916117816246292)
-[![codeforces](https://img.shields.io/badge/codeforces-FF0000?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/tanvir11744)
+[![Codeforces](https://img.shields.io/badge/codeforces-FF0000?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/tanvir11744)
+[![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/codinxter)
