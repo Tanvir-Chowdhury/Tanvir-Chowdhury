@@ -47,7 +47,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanvir11744/)
 [![X](https://img.shields.io/badge/X-%231DA1F2.svg?&style=for-the-badge&logo=X&logoColor=white)](https://x.com/tanvir_11744)
 [![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:tanvir.chowdhury01@northsouth.edu)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/tanvirvlogger/)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/Your_Vir/)
 [![FACEBOOK](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tanvir.11744/)
 [![Discord](https://img.shields.io/badge/discord-2C2F33?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/699916117816246292)
 [![Codeforces](https://img.shields.io/badge/codeforces-FF0000?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/tanvir11744)
