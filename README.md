@@ -20,6 +20,14 @@
   <img src="https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
+## 🔥 Streak Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Tanvir-Chowdhury&theme=dark&date_format=M%20j%5B%2C%20Y%5D&border=FF4500&ring=FF4500&currStreakNum=F1F1F1&sideNums=E2E0DE&currStreakLabel=FF4E01&sideLabels=FF5600&stroke=FF4500&fire=FE4906&dates=E5E5E5&cache_bust=1" alt="tanvir" />
+</p>
+
+<br>
+
 
 ## 🔭 Tools of Trade</h2>
 **Languages I Speak**
