@@ -2,10 +2,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=23&pause=500&vCenter=true&random=false&width=435&lines=Hey+There!;I'm+Mohammad+Tanvir+Chowdhury+%F0%9F%91%8B"/>
 </h1>
 
-<a href="#ay0-0n-title">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tanvir-Chowdhury&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" alt="Tanvir" align="right" />
-</a>
-
 
 
 - 💻 I am a **Backend Developer | Business Enthusiast | Data Science Enthusiast**  
