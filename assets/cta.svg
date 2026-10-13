@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" fill="none">
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#F472B6"/><stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient>
+  <linearGradient id="cardbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14142A"/><stop offset="1" stop-color="#10101C"/>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+  
+</defs>
+<style>
+  text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+  .pulse { transform-origin: 600px 191px; animation: pulse 2.6s ease-in-out infinite; } @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.04); } }
+</style>
+
+<rect width="1200" height="260" rx="24" fill="#0A0A12"/>
+<rect width="1200" height="260" rx="24" fill="url(#grid)"/>
+<g filter="url(#blur)" opacity="0.5">
+  <circle cx="300" cy="260" r="140" fill="#8B5CF6"><animate attributeName="cx" values="300;500;300" dur="12s" repeatCount="indefinite"/></circle>
+  <circle cx="900" cy="0" r="140" fill="#22D3EE"><animate attributeName="cx" values="900;700;900" dur="12s" repeatCount="indefinite"/></circle>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="259" rx="24" stroke="url(#brand)" stroke-opacity="0.6"/>
+<text x="600.0" y="92" text-anchor="middle" font-size="40" font-weight="800" fill="#ECECF5" letter-spacing="-0.5">Have a project in mind?</text>
+<text x="600.0" y="132" text-anchor="middle" font-size="18" fill="#9B9BB4">Freelance, contract or full-time. Let's turn your idea into a product people love.</text>
+<g class="pulse">
+  <rect x="470.0" y="164" width="260" height="54" rx="27" fill="url(#brand)"/>
+  <text x="600.0" y="198" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Start a conversation  →</text>
+</g>
+
+</svg>

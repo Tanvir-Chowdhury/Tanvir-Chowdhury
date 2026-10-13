@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="472" viewBox="0 0 1200 472" fill="none">
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#F472B6"/><stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient>
+  <linearGradient id="cardbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14142A"/><stop offset="1" stop-color="#10101C"/>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+  
+</defs>
+<style>
+  text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+  
+  .ln { opacity: 0; animation: show .35s ease-out forwards; }
+  @keyframes show { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+  .blink { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+
+<rect width="1200" height="472" rx="18" fill="#0A0A12"/>
+<rect width="1200" height="472" rx="18" fill="url(#grid)"/>
+<circle cx="1100" cy="472" r="140" fill="#8B5CF6" opacity="0.25" filter="url(#blur)"/>
+<rect x="0.5" y="0.5" width="1199" height="471" rx="18" stroke="#26263D"/>
+<path d="M0 18a18 18 0 0 1 18-18h1164a18 18 0 0 1 18 18v28H0z" fill="#ffffff" fill-opacity="0.03"/>
+<circle cx="28" cy="23" r="7" fill="#FF5F57"/><circle cx="52" cy="23" r="7" fill="#FEBC2E"/><circle cx="76" cy="23" r="7" fill="#28C840"/>
+<text class="mono" x="600.0" y="28" text-anchor="middle" font-size="13" fill="#9B9BB4">tanvir@dev: ~  —  zsh</text>
+<g class="ln" style="animation-delay:0.3s"><text class="mono" x="40" y="96" font-size="16"><tspan fill='#34D399'>tanvir@dev</tspan><tspan fill='#9B9BB4'>:</tspan><tspan fill='#22D3EE'>~</tspan><tspan fill='#9B9BB4'>$ </tspan><tspan fill='#ECECF5'>whoami</tspan></text></g><g class="ln" style="animation-delay:0.8s"><text class="mono" x="40" y="124" font-size="16"><tspan fill='#ECECF5'>Md Tanvir Chowdhury</tspan>  <tspan fill='#9B9BB4'>·</tspan>  <tspan fill='#A78BFA'>Full-Stack &amp; AI Engineer</tspan></text></g><g class="ln" style="animation-delay:1.1s"><text class="mono" x="40" y="164" font-size="16"><tspan fill='#34D399'>tanvir@dev</tspan><tspan fill='#9B9BB4'>:</tspan><tspan fill='#22D3EE'>~</tspan><tspan fill='#9B9BB4'>$ </tspan><tspan fill='#ECECF5'>cat education.txt</tspan></text></g><g class="ln" style="animation-delay:1.6s"><text class="mono" x="40" y="192" font-size="16"><tspan fill='#ECECF5'>B.Sc. Computer Science &amp; Engineering</tspan> <tspan fill='#9B9BB4'>@ North South University</tspan></text></g><g class="ln" style="animation-delay:1.9s"><text class="mono" x="40" y="232" font-size="16"><tspan fill='#34D399'>tanvir@dev</tspan><tspan fill='#9B9BB4'>:</tspan><tspan fill='#22D3EE'>~</tspan><tspan fill='#9B9BB4'>$ </tspan><tspan fill='#ECECF5'>ls ./expertise</tspan></text></g><g class="ln" style="animation-delay:2.4s"><text class="mono" x="40" y="260" font-size="16"><tspan fill='#22D3EE'>backend-apis/   ai-rag-systems/   saas-platforms/   wordpress-plugins/   dev-tools/</tspan></text></g><g class="ln" style="animation-delay:2.7s"><text class="mono" x="40" y="300" font-size="16"><tspan fill='#34D399'>tanvir@dev</tspan><tspan fill='#9B9BB4'>:</tspan><tspan fill='#22D3EE'>~</tspan><tspan fill='#9B9BB4'>$ </tspan><tspan fill='#ECECF5'>cat now.md</tspan></text></g><g class="ln" style="animation-delay:3.2s"><text class="mono" x="40" y="328" font-size="16"><tspan fill='#ECECF5'>Building </tspan><tspan fill='#F472B6'>LucentEdit</tspan><tspan fill='#ECECF5'>, an open-source design editor with a built-in MCP server for AI agents</tspan></text></g><g class="ln" style="animation-delay:3.5s"><text class="mono" x="40" y="368" font-size="16"><tspan fill='#34D399'>tanvir@dev</tspan><tspan fill='#9B9BB4'>:</tspan><tspan fill='#22D3EE'>~</tspan><tspan fill='#9B9BB4'>$ </tspan><tspan fill='#ECECF5'>echo $MOTTO</tspan></text></g><g class="ln" style="animation-delay:4.0s"><text class="mono" x="40" y="396" font-size="16"><tspan fill='#86EFAC'>"Clean code. Clear communication. Shipped on time."</tspan></text></g><g class="ln" style="animation-delay:4.3s"><text class="mono" x="40" y="436" font-size="16"><tspan fill='#34D399'>tanvir@dev</tspan><tspan fill='#9B9BB4'>:</tspan><tspan fill='#22D3EE'>~</tspan><tspan fill='#9B9BB4'>$ </tspan></text><rect x="168" y="422" width="9" height="18" fill="#A78BFA" class="blink"/></g>
+
+</svg>
