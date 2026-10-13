@@ -152,6 +152,9 @@
 #### ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
+1. 🔨 Pushed to [tanvir-portfolio](https://github.com/Tanvir-Chowdhury/tanvir-portfolio) <sub>· Oct 13</sub>
+2. 🔨 Pushed to [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>· Oct 13</sub>
+3. 🔨 Pushed to [BDPhoneGueard](https://github.com/Tanvir-Chowdhury/BDPhoneGueard) <sub>· Oct 04</sub>
 <!--END_SECTION:activity-->
 
 </td>
