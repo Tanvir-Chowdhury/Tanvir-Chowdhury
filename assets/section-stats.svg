@@ -19,8 +19,8 @@
   
 </style>
 
-<text class="mono" x="2" y="34" font-size="14" fill="#A78BFA" letter-spacing="3">06 /</text>
-<text x="0" y="72" font-size="34" font-weight="800" fill="#ECECF5" letter-spacing="-0.5">GitHub Analytics</text>
+<text class="mono" x="2" y="34" font-size="14" fill="#A78BFA" letter-spacing="3">07 /</text>
+<text x="0" y="72" font-size="34" font-weight="800" fill="#ECECF5" letter-spacing="-0.5">Activity &amp; Analytics</text>
 <text x="1198" y="72" text-anchor="end" font-size="15" fill="#9B9BB4">consistency, in numbers</text>
 <rect x="0" y="88" width="1200" height="1" fill="#26263D"/>
 <rect x="0" y="87" width="160" height="3" rx="1.5" fill="url(#brand)">

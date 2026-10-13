@@ -55,6 +55,8 @@
   <img src="https://img.shields.io/badge/license-MIT-34D399?style=flat-square&labelColor=0A0A12" />
 </p>
 
+<a href="https://github.com/Tanvir-Chowdhury/LucentEdit#use-with-ai-agents-mcp"><img src="assets/lucentedit-demo.svg" width="100%" alt="An AI agent designing a launch card in LucentEdit through its MCP tools"/></a>
+
 <p align="center">
   <a href="https://github.com/Tanvir-Chowdhury/WebShieldAI"><img src="assets/project-webshield.svg" width="49%" alt="WebShield AI"/></a>
   <a href="https://github.com/Tanvir-Chowdhury/Backend-Only-AI-Chatbot"><img src="assets/project-chatbot.svg" width="49%" alt="RAG AI Chatbot"/></a>
@@ -82,6 +84,12 @@
 </details>
 
 <br/>
+
+<img src="assets/section-testimonials.svg" width="100%"/>
+
+<img src="assets/testimonials.svg" width="100%" alt="Client testimonials"/>
+
+<br/><br/>
 
 <img src="assets/section-stack.svg" width="100%"/>
 
@@ -136,6 +144,26 @@
 </picture>
 
 <br/><br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+</td>
+<td width="50%" valign="top" align="center">
+
+#### 🧠 Problem Solving
+
+<a href="https://leetcode.com/u/Your_Vir/"><img src="https://leetcard.jacoblin.cool/Your_Vir?theme=dark&font=Inter&ext=heatmap&border=0&radius=14" width="100%" alt="LeetCode stats"/></a>
+
+</td>
+</tr>
+</table>
 
 <a href="https://leetcode.com/u/Your_Vir/"><img src="https://img.shields.io/badge/LeetCode-0A0A12?style=for-the-badge&logo=leetcode&logoColor=FFA116" /></a>
 <a href="https://codeforces.com/profile/tanvir11744"><img src="https://img.shields.io/badge/Codeforces-0A0A12?style=for-the-badge&logo=codeforces&logoColor=1F8ACB" /></a>

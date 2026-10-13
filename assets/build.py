@@ -380,6 +380,150 @@ def cta():
     return svg(w, h, body, style=style)
 
 
+def timeline_css(selector_steps, cycle):
+    """Per-element keyframes so each element appears at its own moment and the whole scene loops."""
+    css = []
+    for i, start in enumerate(selector_steps):
+        on = start / cycle * 100
+        css.append(
+            f".s{i} {{ animation: k{i} {cycle}s linear infinite; }}"
+            f"@keyframes k{i} {{ 0%, {on:.2f}% {{ opacity: 0; }} {on + 2:.2f}%, 94% {{ opacity: 1; }} 98%, 100% {{ opacity: 0; }} }}"
+        )
+    return "\n".join(css)
+
+
+def lucent_demo():
+    """Looping demo: an AI agent drives LucentEdit through its real MCP tools and the canvas fills in."""
+    w, h, cycle = 1200, 470, 14
+    prompt = "Design a 1280x640 launch card for my coffee shop, preview it, then export a PNG."
+    calls = [
+        ("new_document", "{ width: 1280, height: 640 }"),
+        ("add_shape", "{ shape: 'rect', fill: gradient }"),
+        ("add_text", "{ text: 'Brew Day', font_size: 96 }"),
+        ("add_shape", "{ shape: 'star', points: 8 }"),
+        ("update_layer", "{ effects: { glow } }"),
+        ("render_preview", "{ }  → looks great"),
+        ("export_document", "{ format: 'png' }"),
+    ]
+    starts = [0.4, 1.4]  # prompt, "thinking"
+    starts += [2.4 + i * 1.2 for i in range(len(calls))]
+    rows = []
+    rows.append(
+        f'<g class="s0"><rect x="40" y="96" width="500" height="64" rx="12" fill="{VIOLET}" fill-opacity="0.14" stroke="{VIOLET}" stroke-opacity="0.35"/>'
+        + "".join(
+            f'<text x="56" y="{122 + i * 22}" font-size="14" fill="{TEXT}">{escape(l)}</text>'
+            for i, l in enumerate(wrap(prompt, 62))
+        )
+        + "</g>"
+    )
+    rows.append(f'<g class="s1"><text class="mono" x="40" y="190" font-size="13" fill="{MUTED}">✻ Calling LucentEdit over MCP…</text></g>')
+    for i, (tool, args) in enumerate(calls):
+        y = 222 + i * 32
+        rows.append(
+            f'<g class="s{i + 2}"><text class="mono" x="40" y="{y}" font-size="14">'
+            f"<tspan fill='{GREEN}'>✓</tspan> <tspan fill='{CYAN}'>{tool}</tspan>"
+            f"<tspan fill='{MUTED}'> {escape(args)}</tspan></text></g>"
+        )
+    # Canvas elements keyed to the tool call that creates them.
+    cx, cy, cw, ch = 640, 120, 520, 260
+    c = lambda n: f"s{n + 2}"
+    canvas = f"""
+<g class="{c(0)}"><rect x="{cx}" y="{cy}" width="{cw}" height="{ch}" fill="#ffffff" fill-opacity="0.04" stroke="{BORDER}"/></g>
+<g class="{c(1)}"><rect x="{cx}" y="{cy}" width="{cw}" height="{ch}" fill="url(#coffee)"/></g>
+<g class="{c(2)}">
+  <text x="{cx + 36}" y="{cy + 130}" font-size="54" font-weight="800" fill="#FFF7ED">Brew Day</text>
+  <text x="{cx + 38}" y="{cy + 166}" font-size="16" fill="#FED7AA">Grand opening · Saturday 9 AM</text>
+</g>
+<g class="{c(3)}"><path d="{star_path(cx + 410, cy + 120, 62, 30, 8)}" fill="#FDBA74"/></g>
+<g class="{c(4)}"><path d="{star_path(cx + 410, cy + 120, 62, 30, 8)}" fill="#FDBA74" filter="url(#glowf)" opacity="0.9"/></g>
+<g class="{c(5)}"><rect x="{cx - 4}" y="{cy - 4}" width="{cw + 8}" height="{ch + 8}" rx="4" stroke="{CYAN}" stroke-dasharray="6 6"/>
+  <text class="mono" x="{cx + cw}" y="{cy - 12}" text-anchor="end" font-size="12" fill="{CYAN}">render_preview.png</text></g>
+<g class="{c(6)}"><rect x="{cx + cw - 170}" y="{cy + ch + 18}" width="170" height="34" rx="17" fill="{GREEN}" fill-opacity="0.15" stroke="{GREEN}" stroke-opacity="0.5"/>
+  <text class="mono" x="{cx + cw - 85}" y="{cy + ch + 40}" text-anchor="middle" font-size="13" fill="{GREEN}">✓ exported .png</text></g>
+"""
+    layers = ["Background", "Gradient", "Brew Day", "Star", "Glow"]
+    layer_rows = "".join(
+        f'<g class="{c(min(i, 4))}"><rect x="{cx - 128}" y="{cy + 26 + i * 30}" width="112" height="24" rx="5" fill="#ffffff" fill-opacity="0.04"/>'
+        f'<text x="{cx - 120}" y="{cy + 42 + i * 30}" font-size="12" fill="{MUTED}">▢ {name}</text></g>'
+        for i, name in enumerate(layers)
+    )
+    body = f"""
+<rect width="{w}" height="{h}" rx="20" fill="{BG}"/>
+<rect width="{w}" height="{h}" rx="20" fill="url(#grid)"/>
+<circle cx="900" cy="250" r="180" fill="{PINK}" opacity="0.18" filter="url(#blur)"/>
+<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="20" stroke="{BORDER}"/>
+<text class="mono" x="40" y="58" font-size="13" fill="{PURPLE}" letter-spacing="2">AI AGENT</text>
+<text x="40" y="80" font-size="13" fill="{MUTED}">Claude Code · Cursor · Copilot · Codex · Gemini</text>
+<text class="mono" x="{cx - 128}" y="58" font-size="13" fill="{PINK}" letter-spacing="2">LUCENTEDIT</text>
+<text x="{cx - 128}" y="80" font-size="13" fill="{MUTED}">built-in MCP server · 127.0.0.1:47800/mcp</text>
+<text class="mono" x="{cx - 128}" y="{cy + 12}" font-size="11" fill="{MUTED}" letter-spacing="1.5">LAYERS</text>
+<line x1="{cx - 150}" y1="96" x2="{cx - 150}" y2="{h - 40}" stroke="{BORDER}"/>
+{''.join(rows)}
+{layer_rows}
+{canvas}
+"""
+    defs = f"""
+  <linearGradient id="coffee" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7C2D12"/><stop offset="0.6" stop-color="#C2410C"/><stop offset="1" stop-color="#F59E0B"/>
+  </linearGradient>
+  <filter id="glowf" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>"""
+    return svg(w, h, body, defs, timeline_css(starts, cycle))
+
+
+def star_path(cx, cy, r_out, r_in, points):
+    import math
+    pts = []
+    for i in range(points * 2):
+        r = r_out if i % 2 == 0 else r_in
+        a = math.pi * i / points - math.pi / 2
+        pts.append(f"{cx + r * math.cos(a):.1f},{cy + r * math.sin(a):.1f}")
+    return "M" + " L".join(pts) + " Z"
+
+
+TESTIMONIALS = [
+    ("Tanvir has done a great job with our marketing and has played a big part in "
+     "bringing in more sales for us.",
+     "CEO", "Phoenix Education & Automata One", VIOLET),
+    ("Tanvir really knows his craft. He built great websites for me, and for my "
+     "friends too.",
+     "Rahat Hassan", "Client", CYAN),
+    ("Tanvir built a great website for me last time. That's exactly why I came back "
+     "to him for my next project.",
+     "Ahein", "Returning client", PINK),
+]
+
+
+def testimonials():
+    w, h = 1200, 280
+    cw, gap = 384, 24
+    cards = []
+    for i, (quote, name, role, color) in enumerate(TESTIMONIALS):
+        x = i * (cw + gap)
+        lines = wrap(quote, 34)
+        q = "".join(
+            f'<text x="{x + 32}" y="{y}" font-size="18" fill="{TEXT}">{escape(l)}</text>'
+            for l, y in zip(lines, range(100, 400, 30))
+        )
+        initials = "".join(p[0] for p in name.split()[:2]).upper()
+        cards.append(f"""
+<g class="card" style="animation-delay:{0.2 * i:.1f}s">
+  <rect x="{x + 0.5}" y="0.5" width="{cw - 1}" height="{h - 1}" rx="18" fill="url(#cardbg)" stroke="{BORDER}"/>
+  <circle cx="{x + cw - 30}" cy="20" r="80" fill="{color}" opacity="0.16" filter="url(#soft)"/>
+  <rect x="{x + 32}" y="0" width="80" height="3" rx="1.5" fill="{color}"/>
+  <text x="{x + 28}" y="74" font-size="64" font-weight="800" fill="{color}" opacity="0.55" font-family="Georgia, serif">“</text>
+  {q}
+  <rect x="{x + 32}" y="{h - 92}" width="{cw - 64}" height="1" fill="{BORDER}"/>
+  <circle cx="{x + 56}" cy="{h - 48}" r="22" fill="{color}" fill-opacity="0.15" stroke="{color}" stroke-opacity="0.5"/>
+  <text x="{x + 56}" y="{h - 42}" text-anchor="middle" font-size="15" font-weight="700" fill="{color}">{escape(initials)}</text>
+  <text x="{x + 90}" y="{h - 53}" font-size="16" font-weight="700" fill="{TEXT}">{escape(name)}</text>
+  <text x="{x + 90}" y="{h - 32}" font-size="13" fill="{MUTED}">{escape(role)}</text>
+</g>""")
+    style = """
+  .card { opacity: 0; animation: up .7s ease-out forwards; }
+  @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }"""
+    return svg(w, h, "".join(cards), style=style)
+
+
 PROJECTS = {
     "lucentedit": ("LucentEdit", "Open-source desktop app · AI-native",
                    "A free, lightweight, open-source Photoshop + Illustrator alternative. Layers, pen paths, filters and "
@@ -396,7 +540,7 @@ PROJECTS = {
                 ["Django REST", "RAG", "Pinecone", "Mistral"], VIOLET, False),
     "phoenix": ("Phoenix Bot", "Client project · EdTech",
                 "A 24/7 AI tutor for an admission coaching business. Answers Math, English and Analytical "
-                "questions, even from photos, right inside Telegram groups.",
+                "questions, even from photos, right inside Telegram.",
                 ["Python", "LLM", "Telegram", "Vision"], "#FB923C", False),
     "bizconnect": ("BizConnect", "Platform · Startups",
                    "All-in-one platform connecting entrepreneurs, investors and students with role-based portals, "
@@ -425,9 +569,10 @@ SECTIONS = {
     "services": ("02", "What I Build For You", "services for clients & teams"),
     "process": ("03", "How We'll Work", "a simple, transparent process"),
     "projects": ("04", "Featured Work", "products I've designed & shipped"),
-    "stack": ("05", "Tech Stack", "tools I use to ship"),
-    "stats": ("06", "GitHub Analytics", "consistency, in numbers"),
-    "contact": ("07", "Let's Connect", "open to freelance & full-time roles"),
+    "testimonials": ("05", "What Clients Say", "kind words from people I've built for"),
+    "stack": ("06", "Tech Stack", "tools I use to ship"),
+    "stats": ("07", "Activity & Analytics", "consistency, in numbers"),
+    "contact": ("08", "Let's Connect", "open to freelance & full-time roles"),
 }
 
 
@@ -438,6 +583,8 @@ def main():
         "services.svg": services(),
         "process.svg": process(),
         "cta.svg": cta(),
+        "lucentedit-demo.svg": lucent_demo(),
+        "testimonials.svg": testimonials(),
     }
     for key, args in SECTIONS.items():
         files[f"section-{key}.svg"] = section(*args)
