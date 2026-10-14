@@ -21,7 +21,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
         run: |
-          python3 .github/scripts/header.py
+          python3 .github/scripts/render.py
           python3 .github/scripts/activity.py
       - name: Commit
         run: |

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" fill="none">
+<defs>
+  <filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="80"/></filter>
+  <clipPath id="clip"><rect width="1200" height="200" rx="20"/></clipPath>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="sh" x="-20%" y="-20%" width="140%" height="160%"><feGaussianBlur stdDeviation="22"/></filter>
+  
+</defs>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .m { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="200" fill="#0F0F12"/>
+  <circle cx="1100" cy="200" r="220" fill="#A78BFA" opacity="0.16" filter="url(#g)"/>
+  <rect x="180.0" y="0" width="840.0" height="1" fill="url(#edge)"/>
+  
+<text class="m" x="56" y="70" font-size="13" letter-spacing="2" fill="#71717A">HAVE SOMETHING IN MIND?</text>
+<text x="54" y="128" font-size="40" font-weight="650" letter-spacing="-1.2" fill="#FAFAFA">Let's build it together.</text>
+<text x="56" y="164" font-size="18" fill="#A1A1AA">Freelance, contract or full-time. Tell me what you're building.</text>
+<rect x="904" y="72" width="240" height="56" rx="28" fill="#FAFAFA"/>
+<text x="1024" y="106" text-anchor="middle" font-size="18" font-weight="600" fill="#09090B">Email me  →</text>
+
+</g>
+<rect x="0.5" y="0.5" width="1199" height="199" rx="19.5" stroke="#27272A"/>
+</svg>

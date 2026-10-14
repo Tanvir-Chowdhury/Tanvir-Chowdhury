@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="553" viewBox="0 0 590 553" fill="none">
+<defs>
+  <filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="80"/></filter>
+  <clipPath id="clip"><rect width="590" height="553" rx="20"/></clipPath>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="sh" x="-20%" y="-20%" width="140%" height="160%"><feGaussianBlur stdDeviation="22"/></filter>
+  
+</defs>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .m { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  
+</style>
+<g clip-path="url(#clip)">
+  <rect width="590" height="553" fill="#0F0F12"/>
+  <circle cx="590" cy="553.0" r="220" fill="#A78BFA" opacity="0.16" filter="url(#g)"/>
+  <rect x="88.5" y="0" width="413.0" height="1" fill="url(#edge)"/>
+  <text class="m" x="34" y="66" font-size="13" letter-spacing="2" fill="#71717A">AI, BOTS &amp; PLUGINS</text>
+<rect x="34" y="122.0" width="10" height="10" rx="2" fill="#FB923C"/>
+<text x="56" y="134.0" font-size="24" font-weight="650" letter-spacing="-0.5" fill="#FAFAFA">Phoenix</text>
+<text x="34" y="168.0" font-size="18" fill="#A1A1AA">Telegram tutor for an admission coaching company</text>
+<text class="m" x="34" y="196.0" font-size="13" fill="#71717A">Python · OpenAI</text>
+<rect x="34" y="266.33333333333337" width="10" height="10" rx="2" fill="#A78BFA"/>
+<text x="56" y="278.33333333333337" font-size="24" font-weight="650" letter-spacing="-0.5" fill="#FAFAFA">RAG Chatbot API</text>
+<text x="34" y="312.33333333333337" font-size="18" fill="#A1A1AA">Chat API that answers from your documents</text>
+<text class="m" x="34" y="340.33333333333337" font-size="13" fill="#71717A">Django REST · Pinecone</text><rect x="34" y="240.33333333333334" width="522" height="1" fill="#27272A"/>
+<rect x="34" y="410.6666666666667" width="10" height="10" rx="2" fill="#4ADE80"/>
+<text x="56" y="422.6666666666667" font-size="24" font-weight="650" letter-spacing="-0.5" fill="#FAFAFA">BD Phone Guard</text>
+<text x="34" y="456.6666666666667" font-size="18" fill="#A1A1AA">WordPress plugin that cleans phone numbers</text>
+<text class="m" x="34" y="484.6666666666667" font-size="13" fill="#71717A">PHP · WordPress</text><rect x="34" y="384.6666666666667" width="522" height="1" fill="#27272A"/>
+</g>
+<rect x="0.5" y="0.5" width="589" height="552" rx="19.5" stroke="#27272A"/>
+</svg>
