@@ -7,7 +7,7 @@ import urllib.request
 from datetime import datetime
 
 USER = os.environ["USERNAME"]
-MAX_LINES = 6
+MAX_LINES = 5
 START, END = "<!--START_SECTION:activity-->", "<!--END_SECTION:activity-->"
 
 
@@ -30,24 +30,25 @@ def describe(e):
     if t == "PushEvent":
         # The events API does not always include commit counts, so only show one when present.
         n = p.get("size") or len(p.get("commits") or [])
-        return f"🔨 Pushed {n} commit{'s' if n > 1 else ''} to {link}" if n else f"🔨 Pushed to {link}"
+        return f"Pushed {n} commit{'s' if n > 1 else ''} to {link}" if n else f"Pushed to {link}"
     if t == "CreateEvent" and p.get("ref_type") == "repository":
-        return f"✨ Created {link}"
+        return f"Created {link}"
     if t == "ReleaseEvent":
-        return f"🚀 Released {p['release']['tag_name']} of {link}"
+        return f"Released {p['release']['tag_name']} of {link}"
     if t == "PullRequestEvent" and p.get("action") in ("opened", "closed"):
         verb = "Merged" if p["pull_request"].get("merged") else p["action"].capitalize()
-        return f"🔀 {verb} PR #{p['number']} in {link}"
+        return f"{verb} PR #{p['number']} in {link}"
     if t == "IssuesEvent" and p.get("action") == "opened":
-        return f"📝 Opened issue #{p['issue']['number']} in {link}"
+        return f"Opened issue #{p['issue']['number']} in {link}"
     if t == "WatchEvent":
-        return f"⭐ Starred {link}"
+        return f"Starred {link}"
     return None
 
 
 def main():
     lines, seen = [], set()
-    for e in fetch_events():
+    # The events API is not strictly ordered, so sort newest first ourselves.
+    for e in sorted(fetch_events(), key=lambda e: e["created_at"], reverse=True):
         text = describe(e)
         if not text:
             continue
@@ -57,7 +58,7 @@ def main():
         if e["type"] == "PushEvent" and key in seen:
             continue
         seen.add(key)
-        lines.append(f"{len(lines) + 1}. {text} <sub>· {day}</sub>")
+        lines.append(f"- {text} <sub>{day}</sub>")
         if len(lines) == MAX_LINES:
             break
     block = START + "\n" + "\n".join(lines) + "\n" + END
