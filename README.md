@@ -22,7 +22,7 @@
 #### Recently
 
 <!--START_SECTION:activity-->
-- Pushed to [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 14</sub>
+- Pushed to [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 17</sub>
 - Pushed to [BDPhoneGueard](https://github.com/Tanvir-Chowdhury/BDPhoneGueard) <sub>Oct 14</sub>
 - Pushed to [tanvir-portfolio](https://github.com/Tanvir-Chowdhury/tanvir-portfolio) <sub>Oct 14</sub>
 - Pushed to [BizConnect-frontend](https://github.com/Tanvir-Chowdhury/BizConnect-frontend) <sub>Oct 13</sub>
