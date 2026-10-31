@@ -22,11 +22,11 @@
 #### Recently
 
 <!--START_SECTION:activity-->
+- Opened PR #2 in [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 31</sub>
 - Starred [harvey](https://github.com/ethanplusai/harvey) <sub>Oct 18</sub>
 - Pushed to [BDPhoneGueard](https://github.com/Tanvir-Chowdhury/BDPhoneGueard) <sub>Oct 18</sub>
 - Starred [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 18</sub>
 - Pushed to [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 18</sub>
-- Pushed to [tanvir-portfolio](https://github.com/Tanvir-Chowdhury/tanvir-portfolio) <sub>Oct 14</sub>
 <!--END_SECTION:activity-->
 
 <sub>[Portfolio](https://tanvir-chowdhury.github.io/tanvir-portfolio/) · [LinkedIn](https://www.linkedin.com/in/tanvir11744/) · [X](https://x.com/tanvir_11744) · [LeetCode](https://leetcode.com/u/Your_Vir/) · [Email](mailto:tanvir.chowdhury01@northsouth.edu)</sub>
