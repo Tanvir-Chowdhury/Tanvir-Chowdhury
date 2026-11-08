@@ -25,7 +25,6 @@
 - Pushed to [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 31</sub>
 - Opened PR #2 in [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 31</sub>
 - Starred [sellbird](https://github.com/ethanplusai/sellbird) <sub>Oct 18</sub>
-- Pushed to [BDPhoneGueard](https://github.com/Tanvir-Chowdhury/BDPhoneGueard) <sub>Oct 18</sub>
 - Starred [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 18</sub>
 <!--END_SECTION:activity-->
 
