@@ -22,7 +22,6 @@
 #### Recently
 
 <!--START_SECTION:activity-->
-- Pushed to [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 31</sub>
 - Opened PR #2 in [LucentEdit](https://github.com/Tanvir-Chowdhury/LucentEdit) <sub>Oct 31</sub>
 <!--END_SECTION:activity-->
 
